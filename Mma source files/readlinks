@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Call with file containing a list of links
+
+echo '['
+while IFS= read -r line
+do
+  ./getmma "$line"
+done < $1
+echo ']:'
+
+

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+COREPATH=$1
+#COREPATH=${COREPATH:29}
+COREPATH=${COREPATH/http:\/\//}
+COREPATH=${COREPATH/\/ShowAll.html/}
+COREPATH=${COREPATH/functions.wolfram.com\//}
+curl "http://functions.wolfram.com/$COREPATH/ShowAll.html" > temp
+sed -- 's/'\''/\n/g' temp > temp0
+grep $COREPATH temp0 > temp
+sed -- 's/'MainEq1.gif'//g' temp > temp0
+awk '!a[$0]++' temp0 > temp # Remove duplicates
+grep Functions temp
+
+
+

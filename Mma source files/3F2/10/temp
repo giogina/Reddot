@@ -1,0 +1,1 @@
+["HypergeometricPFQ[{-(1/2), 1, 1}, {-(5/2), 1/2}, -z] ==  (15 + 47 z + 47 z^2)/(15 (1 + z)^3) +   ((-8 Sqrt[z] - 28 z^(3/2) - 35 z^(5/2)) ArcSinh[Sqrt[z]])/(15 (1 + z)^(7/2))","http://functions.wolfram.com/07.27.03.ajw9.01","/HypergeometricFunctions/Hypergeometric3F2/03/08/04/03/01/02/0008/"],
