@@ -1,3 +1,0 @@
-[
-["HypergeometricPFQ[{a}, {}, z] == HypergeometricPFQ[{a}, {}, 1/z]/(-z)^a ","   !IntervalMemberQ[Interval[{0, 1}], z]","http://functions.wolfram.com/07.19.17.0001.01","/HypergeometricFunctions/Hypergeometric1F0/17/01/0001/"]
-]:

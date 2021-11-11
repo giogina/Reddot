@@ -1,1 +1,0 @@
-["HypergeometricPFQ[{3/2, 3/2, 2}, {-(1/2), 5/2}, z] ==  (3 (4 - 11 z + 11 z^2))/((-1 + z)^3 z) + (12 ArcTanh[Sqrt[z]])/z^(3/2)","http://functions.wolfram.com/07.27.03.arbe.01","/HypergeometricFunctions/Hypergeometric3F2/03/08/07/01/02/04/0006/"],
